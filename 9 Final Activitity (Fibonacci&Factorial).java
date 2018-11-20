@@ -15,7 +15,7 @@ public class FactorialFibonacci {
                 + "[1] Fibonacci\n"
                 + "[2] Factorial\n"
                 + " -----------> ");
-                app = in.next();
+                app = in.nextLine();
                 if(app.equals("1")){
                     app_fibonacci();
                     break;
